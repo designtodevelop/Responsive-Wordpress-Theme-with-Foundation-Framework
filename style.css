@@ -28,3 +28,44 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
   http://foundation.zurb.com/docs/sass.html
 
 ---------------------------------------------------------------------------- */
+.top-bar-container, .tab-bar {
+  margin-bottom: 0;
+}
+.main-head {
+  margin-bottom: 2em;
+  padding: 1.2em;
+  background: #00b3d3; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #00b3d3 0%, #007295 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#00b3d3), color-stop(100%,#007295)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #00b3d3 0%,#007295 100%); /* Chrome10+,Safari5.1+ */
+}
+.main-head h1 {
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.59);
+  font-size: 2.5rem;
+  color: #fff;
+}
+.searchbox, .searchbutton  {
+  padding: 0 15px;
+}
+.panel {
+  box-shadow: 0 1px 5px #D5DEE5;
+}
+figure {
+  margin: 0;
+}
+.entry-content figure img {
+  margin: 10px 0;
+}
+.bottom-sidebar {
+  padding-top: 10px;
+  background-color: #cecece;
+}
+@media only screen and (min-width: 40.063em) {
+  h2 {
+    font-size: 1.8rem;
+  }  
+}

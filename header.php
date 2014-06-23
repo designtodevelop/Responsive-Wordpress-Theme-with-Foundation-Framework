@@ -22,6 +22,7 @@
     } ?></title>
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/app.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
     
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
@@ -45,7 +46,7 @@
     </section>
     <section class="middle tab-bar-section">
       
-      <h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+      <h1 class="title">Foundation</h1>
 
     </section>
   </nav>
@@ -58,7 +59,7 @@
             <nav class="top-bar" data-topbar="">
                 <ul class="title-area">
                     <li class="name">
-                        <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+                        <h1><a href="<?php echo home_url(); ?>">Foundation</a></h1>
                     </li>          
                 </ul>
                 <section class="top-bar-section">
@@ -68,7 +69,15 @@
             </nav>
         </div>
 
-
+  <header class="main-head">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+      </div>
+    </div>
+  </header>
 
 <section class="container" role="document">
   <?php do_action('foundationPress_after_header'); ?>
+
+  <?php get_search_form(); ?>
