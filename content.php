@@ -17,7 +17,6 @@
 			<?php the_excerpt(); ?>
 			<p>Posted on <?php the_time('F jS, Y'); ?> in <?php the_category(', '); ?></p>
 			<p class="byline author">Written by <?php the_author_posts_link(); ?></p>
-			<?php // FoundationPress_entry_meta(); ?>
 			<a href="<?php the_permalink(); ?>" class="button">Read more</a>
 		</div>
 		<footer>
