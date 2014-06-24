@@ -1,8 +1,13 @@
 </section>
-<footer class="row">
-	<?php do_action('foundationPress_before_footer'); ?>
-	<?php dynamic_sidebar("footer-widgets"); ?>
-	<?php do_action('foundationPress_after_footer'); ?>
+<footer class="main-footer">
+	<div class="row"
+		<ul>
+			<?php wp_list_pages(); ?> 
+		</ul>
+		<?php do_action('foundationPress_before_footer'); ?>
+		<?php dynamic_sidebar("footer-widgets"); ?>
+		<?php do_action('foundationPress_after_footer'); ?>
+	</div>
 </footer>
 <a class="exit-off-canvas"></a>
 	

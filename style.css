@@ -69,3 +69,15 @@ figure {
     font-size: 1.8rem;
   }  
 }
+.main-footer {
+  padding: 10px 0;
+  background-color: #9c9c9c;
+}
+.pagenav ul {
+  margin: 10px 0 0 0;
+}
+.main-footer li {
+  float:left;
+  margin-right: 10px;
+  list-style: none;
+}
